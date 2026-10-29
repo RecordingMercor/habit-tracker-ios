@@ -62,6 +62,6 @@ final class HabitStore: ObservableObject {
     }
 
     func formatStreak(_ streak: Int) -> String {
-        "\(streak) days"
+        "🔥 \(streak) days"
     }
 }

@@ -31,6 +31,6 @@ struct HabitTrackerTests {
     @Test func formatStreakReturnsDaysString() {
         let store = HabitStore()
 
-        #expect(store.formatStreak(3) == "3 days")
+        #expect(store.formatStreak(3) == "🔥 3 days")
     }
 }
